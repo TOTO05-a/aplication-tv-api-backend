@@ -2,6 +2,8 @@
 
 API REST para gestionar programas de television, episodios, actores, personajes, productoras, favoritos, calificaciones, comentarios, recomendaciones y usuarios.
 
+link para repositorio frontend: https://github.com/TOTO05-a/aplication-tv-api-frontend.git
+
 ## Tecnologias
 
 - Node.js y JavaScript
