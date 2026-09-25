@@ -1,0 +1,37 @@
+{
+  "name": "campuslands-tv-api",
+  "version": "1.0.0",
+  "description": "API para gestion de programas de television - proyecto academico Campuslands",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "build": "node --check src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/database/seed.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": ["campuslands", "tv-shows", "api"],
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "semver": "^7.6.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^9.3.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  }
+}
